@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    font-family: Arial, sans-serif
+}
+
+/* header loghi e navbar */
+header {
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-upper-objects {
+    display: flex;
+}
+
+.left-upper-objects>* {
+    margin-left: 25px;
+}
+
+header>div>img {
+    height: 25px;
+}
+
+.right-upper-objects {
+    display: flex;
+}
+
+.right-upper-objects>* {
+    margin-right: 25px;
+}
+
+button {
+    background-color: #0161FF;
+    border: none;
+    color: white;
+    padding: 10px;
+}
+
+
+
+/* section with big title and introduction  */
+
+.oneplace {
+    padding-top: 70px;
+    padding-left: 270px;
+    padding-right: 270px;
+    background-color: #B4D0E7;
+    height: 515px;
+}
+
+.underh1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 800;
+}
+
+
+#instruments {
+    width: 300px;
+    font-size: 13px;
+    line-height: 17px;
+    margin-bottom: 35px;
+}
+
+#anymoment {
+    font-size: 13px;
+    margin-top: 35px;
+}
+
+#proposal {
+    height: 380px;
+}
