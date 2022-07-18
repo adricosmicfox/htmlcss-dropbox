@@ -79,3 +79,43 @@ h1 {
 #proposal {
     height: 380px;
 }
+
+
+
+/* body for main section and benefits sections */
+
+.center-section {
+    padding-left: 320px;
+    padding-right: 320px;
+    margin-top: 100px;
+}
+
+.radio {
+    margin-top: 40px;
+
+}
+
+label {
+    font-size: 12px;
+    margin-right: 40px;
+}
+
+.planbox {
+    width: 200px;
+    border: solid gray 1px;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.planbox>* {
+    margin-bottom: 20px;
+}
+
+.forwho {
+    border: solid gray 1px;
+}
+
+#planchoice {
+    display: flex;
+    justify-content: space-between;
+}
