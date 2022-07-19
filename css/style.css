@@ -363,3 +363,32 @@ h3 {
     height: 1px;
     border: none;
 }
+
+
+/* footer */
+
+footer {
+    background-color: black;
+    height: 450px;
+    color: white;
+}
+
+.bottom-list {
+    margin: 0 auto;
+    max-width: 900px;
+    justify-content: space-between;
+}
+
+.bottom-list>div>p {
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+.bottom-list>div>h4 {
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+#hr-footer {
+    width: 100px;
+}
