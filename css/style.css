@@ -1,4 +1,6 @@
 * {
+    box-sizing: border-box;
+    padding: 0px;
     margin: 0px;
     font-family: Arial, sans-serif
 }
@@ -6,7 +8,7 @@
 /* header loghi e navbar */
 header {
     height: 70px;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -45,6 +47,7 @@ button {
 /* section with big title and introduction  */
 
 .oneplace {
+    max-width: 100%;
     padding-top: 70px;
     padding-left: 270px;
     padding-right: 270px;
@@ -85,8 +88,8 @@ h1 {
 /* body for main section and benefits sections */
 
 .center-section {
-    padding-left: 320px;
-    padding-right: 320px;
+    margin: 0 auto;
+    max-width: 800px;
     margin-top: 100px;
 }
 
@@ -95,6 +98,11 @@ h1 {
 
 #planboxes :not(h3) {
     font-size: 11px;
+}
+
+#planchoice {
+    display: flex;
+    justify-content: space-between;
 }
 
 .radio {
@@ -107,8 +115,8 @@ label {
 }
 
 .planbox {
-    width: 210px;
-    height: 520px;
+    width: 240px;
+    height: 620px;
     border: solid lightgray 1px;
     padding: 25px;
 }
@@ -122,11 +130,6 @@ label {
     text-align: center;
     padding: 10px;
     margin-top: 40px;
-}
-
-#planchoice {
-    display: flex;
-    justify-content: space-between;
 }
 
 .hrcards {
@@ -154,10 +157,6 @@ h3 {
     justify-content: space-between;
 }
 
-.prova {
-    display: flex;
-    flex-direction: column;
-}
 
 #enterpriseboxbottom {
     border: solid lightgray 1px;
@@ -193,4 +192,174 @@ h3 {
 
 /* section with dropbox benefits */
 
-.benefitcard {}
+.upper-cards-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.benefitcard {
+    width: 250px;
+}
+
+.benefitcard>div>img {
+    width: 250px;
+}
+
+#teamsnumber {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-width: 600px;
+}
+
+#teamsnumber>p {
+    margin-top: 50px;
+}
+
+
+/* section with companies */
+
+
+.partner-blocks {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 15vw;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.square img {
+    width: 55%;
+    color: white;
+}
+
+.block-container {
+    display: flex;
+    width: 30vw;
+}
+
+.feedback-container {
+    height: 420px;
+    width: 543px;
+    background-color: #F5F5F5;
+    padding: 40px;
+}
+
+.feedback-container>img {
+    height: 70px;
+    margin-bottom: 30px;
+}
+
+.feedback-container>p {
+    margin-bottom: 50px;
+}
+
+.designit {
+    box-sizing: border-box;
+    background-color: #A2D39B;
+    border: 10px solid hsl(111deg 39% 86%);
+
+}
+
+.asu {
+    background-color: hsl(336deg 85% 21%);
+}
+
+.florida {
+    background-color: hsl(197deg 100% 40%);
+}
+
+.topps {
+    background-color: hsl(0deg 100% 55%);
+}
+
+.bicycle {
+    background-color: hsl(351deg 100% 42%);
+}
+
+.hearts {
+    background-color: hsl(207deg 52% 81%);
+}
+
+.planet {
+    background-color: hsl(228deg 82% 28%);
+}
+
+.clearchannel {
+    background-color: hsl(49deg 100% 59%);
+}
+
+#hrdesignit {
+    background-color: lightgray;
+    height: 1px;
+    border: none;
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+
+/* blue container */
+
+#bluecontainer {
+    background-color: hsl(207deg 52% 81%);
+}
+
+#dropboxbusiness {
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    height: 280px;
+    color: hsl(336deg 85% 21%);
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+#takebusiness {
+    width: 450px;
+}
+
+#trybutton {
+    color: black;
+    background-color: white;
+}
+
+
+/* FAQ section */
+
+#faqsection {
+    max-width: 800px;
+    margin: auto;
+    height: 400px;
+}
+
+#faqbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#faqbox>div>* {
+    margin-top: 30px;
+}
+
+.hrfaqsection {
+    background-color: lightgray;
+    height: 1px;
+    border: none;
+}
