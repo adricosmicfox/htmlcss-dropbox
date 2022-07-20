@@ -162,14 +162,14 @@
 
             <!-- enterprise info box -->
             <div>
-                <p class="forwho">Team</p>
+                <p class="forwho"><i class="fa-solid fa-building"></i> Team</p>
                 <div>
                     <div id="enterprisebox">
                         <h3>Enterprise</h3>
-                        <button>Contatta l'uffico vendite</button>
+                        <button id="enterprise-button">Contatta l'uffico vendite</button>
                     </div>
                     <div id="enterpriseboxbottom">
-                        <h5>Contatta l'ufficio vendite per i prezzi</h5>
+                        <h5 id="enterprise-h5">Contatta l'ufficio vendite per i prezzi</h5>
                         <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione
                             su
                             qualsiasi scala.</p>
@@ -338,17 +338,29 @@
 
 <!-- FAQ section -->
 
-<section id="faqsection">
-    <div id="faqbox">
+<section class="faqsection">
+    <div class="faqbox flex">
         <div>
             <h2>Domande frequenti</h2>
             <hr class="hrfaqsection">
-            <h5>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h5>
+            <div class="question flex">
+                <h5>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h5>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+
             <hr class="hrfaqsection">
-            <h5>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h5>
+            <div class="question flex">
+                <h5>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h5>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+
             <hr class="hrfaqsection">
-            <h5>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h5>
+            <div class="question flex">
+                <h5>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h5>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
             <hr class="hrfaqsection">
+
         </div>
     </div>
 </section>
@@ -407,7 +419,8 @@
             </div>
         </div>
         <hr id="hr-footer">
-        <p>Italiano</p>
+        <p id="language-icons"><i class="fa-solid fa-earth-americas"></i> Italiano <i class="fa-solid fa-caret-up"></i>
+        </p>
     </div>
 
 
