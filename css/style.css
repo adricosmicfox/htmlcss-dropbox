@@ -21,23 +21,26 @@ header>* {
     font-size: 12px;
 }
 
-.left-upper-objects {
+.upper-menu {
     display: flex;
+    align-items: center;
 }
 
-.left-upper-objects>* {
+.left-upper-objects,
+.right-upper-objects {
+    justify-content: center;
+}
+
+.left-upper-objects>div>* {
     margin-left: 25px;
 }
 
 header>div>img {
     height: 25px;
+    margin-left: 25px;
 }
 
-.right-upper-objects {
-    display: flex;
-}
-
-.right-upper-objects>* {
+.right-upper-objects>div>* {
     margin-right: 25px;
 }
 
@@ -369,7 +372,10 @@ h3 {
     margin-bottom: 70px;
 }
 
-#takebusiness {}
+#takebusiness {
+    display: flex;
+    width: 400px;
+}
 
 #trybutton {
     padding-right: 40px;
@@ -377,6 +383,8 @@ h3 {
     height: 40px;
     color: black;
     background-color: white;
+    display: flex;
+    align-items: center;
 }
 
 
