@@ -7,12 +7,18 @@
 
 /* header loghi e navbar */
 header {
+    background-color: white;
     height: 70px;
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+}
+
+header>* {
+    font-size: 12px;
 }
 
 .left-upper-objects {
@@ -36,6 +42,7 @@ header>div>img {
 }
 
 button {
+    font-size: 12px;
     background-color: #0161FF;
     border: none;
     color: white;
@@ -47,12 +54,14 @@ button {
 /* section with big title and introduction  */
 
 .oneplace {
-    max-width: 100%;
-    padding-top: 70px;
-    padding-left: 270px;
-    padding-right: 270px;
+    padding-top: 130px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#blue-background {
     background-color: #B4D0E7;
-    height: 515px;
+    height: 650px;
 }
 
 .underh1 {
@@ -83,7 +92,9 @@ h1 {
     height: 380px;
 }
 
-
+.fa-arrow-down {
+    margin-top: 100px;
+}
 
 /* body for main section and benefits sections */
 
@@ -96,7 +107,7 @@ h1 {
 
 /* main section with plans */
 
-#planboxes :not(h3) {
+#planboxes :not(h3, #p-partner, .benefitcard) {
     font-size: 11px;
 }
 
@@ -139,6 +150,10 @@ label {
     width: 40px;
 }
 
+.center-button {
+    width: 100%;
+}
+
 h2 {
     font-size: 33px;
 }
@@ -148,7 +163,11 @@ h3 {
     line-height: 30px;
 }
 
-/* enterprise box */
+.fa-check {
+    color: #0161FF;
+}
+
+/* enterprise unfo box */
 
 #enterprisebox {
     border: solid lightgray 1px;
@@ -167,7 +186,7 @@ h3 {
 }
 
 #twoguys {
-    width: 500px;
+    width: 470px;
 }
 
 #section-right-text {
@@ -180,13 +199,15 @@ h3 {
 #container-partner {
     padding-right: 70px;
     margin-top: 35px;
-    height: 150px;
-    width: 250px;
+    height: 250px;
+    width: 280px;
 }
 
 #p-partner {
     line-height: 15px;
     margin-top: 12px;
+    font-size: 13px;
+    line-height: 17px;
 }
 
 
@@ -200,10 +221,15 @@ h3 {
 
 .benefitcard {
     width: 250px;
+    font-size: 13px;
 }
 
 .benefitcard>div>img {
-    width: 250px;
+    width: 220px;
+}
+
+.benefitcard>div>p {
+    margin-top: 17px;
 }
 
 #teamsnumber {
@@ -331,10 +357,12 @@ h3 {
 }
 
 #takebusiness {
-    width: 450px;
-}
+    }
 
 #trybutton {
+    padding-right: 40px;
+    padding-left: 40px;
+    height: 40px;
     color: black;
     background-color: white;
 }
@@ -390,5 +418,14 @@ footer {
 }
 
 #hr-footer {
-    width: 100px;
+    width: 140px;
+    background-color: lightgray;
+    height: 1px;
+    border: none;
+    margin-top: 110px;
+}
+
+.bottom-list>p {
+    margin-top: 40px;
+    font-size: .8rem;
 }
