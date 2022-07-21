@@ -15,6 +15,7 @@ header {
     align-items: center;
     justify-content: space-between;
     position: fixed;
+    z-index: 999;
 }
 
 header>* {
@@ -50,8 +51,15 @@ button {
     border: none;
     color: white;
     padding: 10px;
+    cursor: pointer;
 }
 
+
+button:hover {
+    background-color: #083070;
+    transition: all .5s;
+    transform: scale(1.1);
+}
 
 
 /* section with big title and introduction  */
@@ -263,7 +271,7 @@ h3 {
 
 
 .partner-blocks {
-    width: 100%;
+    width: 1519px;
     display: flex;
     justify-content: center;
 }
@@ -276,14 +284,34 @@ h3 {
     flex-wrap: wrap;
 }
 
-.square {
+/* .square {
     width: 15vw;
     height: 15vw;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+ */
+
+
+.square {
+
+    width: 14rem;
+    height: 14rem;
+
+
+    /* width: 15vw;
+    height: 30vh;
+ */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
 
 .square img {
     width: 55%;
@@ -296,8 +324,7 @@ h3 {
 }
 
 .feedback-container {
-    height: 420px;
-    width: 543px;
+    width: 597px;
     background-color: #F5F5F5;
     padding: 40px;
 }
@@ -311,39 +338,56 @@ h3 {
     margin-bottom: 50px;
 }
 
-.designit {
-    box-sizing: border-box;
-    background-color: #A2D39B;
-    border: 10px solid hsl(111deg 39% 86%);
+.designit:hover,
+.asu:hover,
+.florida:hover,
+.topps:hover,
+.bicycle:hover,
+.hearts:hover,
+.planet:hover,
+.clearchannel:hover {
+    transform: scale(0.9);
+}
 
+.designit {
+    background-color: #A2D39B;
+    transition: .5s;
 }
 
 .asu {
     background-color: hsl(336deg 85% 21%);
+    transition: .5s;
 }
 
 .florida {
     background-color: hsl(197deg 100% 40%);
+    transition: .5s;
 }
 
 .topps {
     background-color: hsl(0deg 100% 55%);
+    transition: .5s;
 }
+
 
 .bicycle {
     background-color: hsl(351deg 100% 42%);
+    transition: .5s;
 }
 
 .hearts {
     background-color: hsl(207deg 52% 81%);
+    transition: .5s;
 }
 
 .planet {
     background-color: hsl(228deg 82% 28%);
+    transition: .5s;
 }
 
 .clearchannel {
     background-color: hsl(49deg 100% 59%);
+    transition: .5s;
 }
 
 #hrdesignit {

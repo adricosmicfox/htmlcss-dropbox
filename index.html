@@ -38,8 +38,6 @@
 </header>
 
 
-
-
 <!-- section with big title and introduction -->
 <div id="blue-background">
     <section class="oneplace">
@@ -73,130 +71,125 @@
 
     <!-- main section with plans  -->
 
-    <main>
+    <section>
+        <h2>Trova il piano business che fa per te</h2>
+        <input class="radio" type="radio" name="Fatturazione" value="Fatturazione mensile">
+        <label for="Fatturazionemensile"> Fatturazione mensile</label>
+        <input class="radio" type="radio" name="Fatturazione" value="Fatturazione annuale">
+        <label for="Fatturazioneannuale"> Fatturazione annuale</label>
+    </section>
 
-        <section>
-            <h2>Trova il piano business che fa per te</h2>
-            <input class="radio" type="radio" name="Fatturazione" value="Fatturazione mensile">
-            <label for="Fatturazione mensile"> Fatturazione mensile</label>
-            <input class="radio" type="radio" name="Fatturazione" value="Fatturazione annuale">
-            <label for="Fatturazione annuale"> Fatturazione annuale</label>
-        </section>
+    <section id="planboxes">
+        <div id="planchoice">
 
-        <section id="planboxes">
-            <div id="planchoice">
-
-                <!-- Professional plan -->
-                <div>
-                    <p class="forwho"><i class="fa-solid fa-user"></i> Singolo</p>
-                    <div class="planbox">
-                        <h3>Professional</h3>
-                        <h5>€ 12.00</h5>
-                        <p>/mese</p>
-                        <p><i class="fa-solid fa-user"></i> 1 utente</p>
-                        <p><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sicuro</p>
-                        <p><i class="fa-solid fa-circle-nodes"></i> Funzioni di produttività premium e
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;condivisione file semplice e
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sicura</p>
-                        <button class="center-button">Prova gratis per 30 giorni</button>
-                        <p>oppure acquista ora</p>
-                        <hr class="hrcards">
-                        <h5>Punti salienti del piano</h5>
-                        <p><i class="fa-solid fa-check"></i> Invia file fino a 100GB con Dropbox
-                            &nbsp;&nbsp;&nbsp;&nbsp;Transfert</p>
-                        <p><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</p>
-                    </div>
-                </div>
-
-
-                <!-- Advanced plan -->
-                <div>
-                    <p class="forwho"><i class="fa-solid fa-users"></i> Team</p>
-                    <div class="planbox">
-                        <h3>Advanced</h3>
-                        <h5>€ 18.00</h5>
-                        <p>/utente/mese</p>
-                        <p><i class="fa-solid fa-users"></i> 3 o più utenti</p>
-                        <p><i class="fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tuo team</p>
-                        <p><i class="fa-solid fa-circle-nodes"></i> Sofisticate funzioni di controllo e
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;per tenere al sicuro tutti i file del
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tuo team</p>
-                        <button class="center-button">Prova gratis per 30 giorni</button>
-                        <p>oppure acquista ora</p>
-                        <hr class="hrcards">
-                        <h5>Punti salienti del piano</h5>
-                        <p><i class="fa-solid fa-check"></i> Nessun limite di spazio per i file</p>
-                        <p><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</p>
-                        <p><i class="fa-solid fa-check"></i> Risparmio del 50% rispetto alle
-                            &nbsp;&nbsp;&nbsp;&nbsp;iscrizioni singole</p>
-                        <p><i class="fa-solid fa-check"></i> Possibilità di inerire nuovi membri
-                            &nbsp;&nbsp;&nbsp;&nbsp;del team</p>
-                        <p><i class="fa-solid fa-check"></i> Gestione dei permessi in base ai
-                            &nbsp;&nbsp;&nbsp;&nbsp;ruoli</p>
-                    </div>
-                </div>
-
-
-                <!-- Enterprise plan -->
-                <div>
-                    <p class="forwho"><i class="fa-solid fa-building"></i> Azienda</p>
-                    <div class="planbox">
-                        <h3>Enterprise</h3>
-                        <h5>Contattaci</h5>
-                        <p>-</p>
-                        <p><i class="fa-solid fa-users"></i> 10 o più utenti</p>
-                        <p><i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;azienda</p>
-                        <p><i class="fa-solid fa-circle-nodes"></i> Assistenza personalizzata per
-                            &nbsp;&nbsp;&nbsp;&nbsp;aiutare gli amministratori in una &nbsp;&nbsp;&nbsp;&nbsp;gestione
-                            su larga scala</p>
-                        <button class="center-button">Contattaci</button>
-                        <p>oppure acquista ora</p>
-                        <hr class="hrcards">
-                        <h5>Punti salienti del piano</h5>
-                        <p><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</p>
-                        <p><i class="fa-solid fa-check"></i> Servizio assistenza 24/h</p>
-                        <p><i class="fa-solid fa-check"></i> Possibilità di personalizzazione
-                            &nbsp;&nbsp;&nbsp;&nbsp;totale</p>
-                    </div>
-                </div>
-
-
-            </div>
-
-            <!-- enterprise info box -->
+            <!-- Professional plan -->
             <div>
-                <p class="forwho"><i class="fa-solid fa-building"></i> Team</p>
-                <div>
-                    <div id="enterprisebox">
-                        <h3>Enterprise</h3>
-                        <button id="enterprise-button">Contatta l'uffico vendite</button>
-                    </div>
-                    <div id="enterpriseboxbottom">
-                        <h5 id="enterprise-h5">Contatta l'ufficio vendite per i prezzi</h5>
-                        <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione
-                            su
-                            qualsiasi scala.</p>
-                    </div>
+                <p class="forwho"><i class="fa-solid fa-user"></i> Singolo</p>
+                <div class="planbox">
+                    <h3>Professional</h3>
+                    <h5>€ 12.00</h5>
+                    <p>/mese</p>
+                    <p><i class="fa-solid fa-user"></i> 1 utente</p>
+                    <p><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sicuro</p>
+                    <p><i class="fa-solid fa-circle-nodes"></i> Funzioni di produttività premium e
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;condivisione file semplice e
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sicura</p>
+                    <button class="center-button">Prova gratis per 30 giorni</button>
+                    <p>oppure acquista ora</p>
+                    <hr class="hrcards">
+                    <h5>Punti salienti del piano</h5>
+                    <p><i class="fa-solid fa-check"></i> Invia file fino a 100GB con Dropbox
+                        &nbsp;&nbsp;&nbsp;&nbsp;Transfert</p>
+                    <p><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</p>
                 </div>
             </div>
 
-            <div id="section-right-text">
-                <img id="twoguys" src="/img/partner.png" alt="">
-                <div id="container-partner">
-                    <h3>Entra in contatto con un partner Dropbox</h3>
-                    <p id="p-partner">Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi
-                        necessari per
-                        raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e
-                        supporto continui.</p>
+
+            <!-- Advanced plan -->
+            <div>
+                <p class="forwho"><i class="fa-solid fa-users"></i> Team</p>
+                <div class="planbox">
+                    <h3>Advanced</h3>
+                    <h5>€ 18.00</h5>
+                    <p>/utente/mese</p>
+                    <p><i class="fa-solid fa-users"></i> 3 o più utenti</p>
+                    <p><i class="fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tuo team</p>
+                    <p><i class="fa-solid fa-circle-nodes"></i> Sofisticate funzioni di controllo e
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;per tenere al sicuro tutti i file del
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tuo team</p>
+                    <button class="center-button">Prova gratis per 30 giorni</button>
+                    <p>oppure acquista ora</p>
+                    <hr class="hrcards">
+                    <h5>Punti salienti del piano</h5>
+                    <p><i class="fa-solid fa-check"></i> Nessun limite di spazio per i file</p>
+                    <p><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</p>
+                    <p><i class="fa-solid fa-check"></i> Risparmio del 50% rispetto alle
+                        &nbsp;&nbsp;&nbsp;&nbsp;iscrizioni singole</p>
+                    <p><i class="fa-solid fa-check"></i> Possibilità di inerire nuovi membri
+                        &nbsp;&nbsp;&nbsp;&nbsp;del team</p>
+                    <p><i class="fa-solid fa-check"></i> Gestione dei permessi in base ai
+                        &nbsp;&nbsp;&nbsp;&nbsp;ruoli</p>
                 </div>
             </div>
-        </section>
 
-    </main>
 
+            <!-- Enterprise plan -->
+            <div>
+                <p class="forwho"><i class="fa-solid fa-building"></i> Azienda</p>
+                <div class="planbox">
+                    <h3>Enterprise</h3>
+                    <h5>Contattaci</h5>
+                    <p>-</p>
+                    <p><i class="fa-solid fa-users"></i> 10 o più utenti</p>
+                    <p><i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;azienda</p>
+                    <p><i class="fa-solid fa-circle-nodes"></i> Assistenza personalizzata per
+                        &nbsp;&nbsp;&nbsp;&nbsp;aiutare gli amministratori in una &nbsp;&nbsp;&nbsp;&nbsp;gestione
+                        su larga scala</p>
+                    <button class="center-button">Contattaci</button>
+                    <p>oppure acquista ora</p>
+                    <hr class="hrcards">
+                    <h5>Punti salienti del piano</h5>
+                    <p><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</p>
+                    <p><i class="fa-solid fa-check"></i> Servizio assistenza 24/h</p>
+                    <p><i class="fa-solid fa-check"></i> Possibilità di personalizzazione
+                        &nbsp;&nbsp;&nbsp;&nbsp;totale</p>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- enterprise info box -->
+        <div>
+            <p class="forwho"><i class="fa-solid fa-building"></i> Team</p>
+            <div>
+                <div id="enterprisebox">
+                    <h3>Enterprise</h3>
+                    <button id="enterprise-button">Contatta l'uffico vendite</button>
+                </div>
+                <div id="enterpriseboxbottom">
+                    <h5 id="enterprise-h5">Contatta l'ufficio vendite per i prezzi</h5>
+                    <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione
+                        su
+                        qualsiasi scala.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="section-right-text">
+            <img id="twoguys" src="/img/partner.png" alt="">
+            <div id="container-partner">
+                <h3>Entra in contatto con un partner Dropbox</h3>
+                <p id="p-partner">Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi
+                    necessari per
+                    raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e
+                    supporto continui.</p>
+            </div>
+        </div>
+    </section>
 
 
     <!-- section with dropbox benefits -->
@@ -339,7 +332,7 @@
     </div>
 </div>
 
-</section>
+
 
 
 <!-- FAQ section -->
